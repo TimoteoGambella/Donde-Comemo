@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.font-family-primary {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-title {
+  font-family: "Pulang", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 20px;
+}
+
+.d-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.d-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.font-w-400 {
+  font-weight: 400;
+}
+
+.font-w-500 {
+  font-weight: 500;
+}
+
+.principal-button {
+  padding: 10px 22px;
+  background: #599a6c;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  width: 140px;
+  height: 40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #000000;
+  cursor: pointer;
+}
+.secondary-button {
+  padding: 10px 22px;
+  width: 104px;
+  height: 40px;
+  background: #599a6c;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #000000;
+  cursor: pointer;
+}
+.campo-input {
+  height: 56px;
+  width: 328px;
+  left: 16px;
+  top: 289px;
+  border-radius: 4px;
+  padding: 0px 22px 17px 7px;
+  background-color: #599a6c;
+  color: #000000;
+  border: 1px solid black;
+  margin-top: 18px;
+}
+.campo-input::placeholder {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+}
+
+.principal-color {
+  color: #599a6c;
+}
+.secpndary-color {
+  color: #1c8147;
+}
+.color-black {
+  color: black;
+}
+.color-fondo {
+  color: #9bc2a7;
+}

@@ -1,0 +1,132 @@
+.cardsComercios-container {
+  width: 360px;
+  height: 100vh;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+
+  .top-bar {
+    position: relative;
+    width: 100%;
+    height: 64px;
+    background: #599a6c;
+    border: 1px solid #000000;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    h3 {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 28px;
+    }
+    path {
+      color: #000000;
+    }
+  }
+  .input-div {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    input {
+      height: 56px;
+      width: 328px;
+      padding-left: 15px;
+      &::placeholder {
+        color: #000000;
+      }
+    }
+  }
+  .contenedorDeCards {
+    width: 100%;
+    height: 540px;
+    overflow-y: scroll;
+    padding-bottom: 150px;
+  }
+  .cardsComercios {
+    margin: 0 auto;
+    height: 555px;
+    width: 320px;
+    left: 0px;
+    top: 0px;
+    border-radius: 12px;
+    padding: 5px 0px 5px 0px;
+    background-color: #599a6c;
+    margin-bottom: 10px;
+
+    .top-card {
+      display: flex;
+      height: 77px;
+      padding: 14.5px 16px;
+      .top-izquierdo {
+        width: 80%;
+        h3 {
+          font-family: "Roboto";
+          font-size: 16px;
+          letter-spacing: 0.1px;
+          margin-bottom: 4px;
+        }
+        h6 {
+          font-family: "Roboto";
+          font-size: 14px;
+          letter-spacing: 0.25px;
+        }
+      }
+      .top-derecho {
+        width: 20%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 10px;
+      }
+    }
+  }
+  .direccion {
+    padding: 14.5px 16px;
+    height: 69px;
+    h5 {
+      font-family: "Roboto";
+      font-size: 16px;
+      letter-spacing: 0.15px;
+      margin-bottom: 4px;
+    }
+    h6 {
+      font-family: "Roboto";
+      font-size: 14px;
+      letter-spacing: 0.15px;
+    }
+  }
+  .cardComercio-descripcion {
+    font-family: "Roboto";
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    padding: 10px;
+  }
+  .cardComercio-button {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 16px;
+    button {
+      height: 40px;
+      width: 104px;
+      left: 200px;
+      top: 16px;
+      border: 1px solid #000000;
+      border-radius: 20px;
+      padding: 10px 22px 10px 22px;
+      background-color: #599a6c;
+      margin-top: 21px;
+    }
+  }
+}

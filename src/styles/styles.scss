@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.cdnfonts.com/css/pulang");
+
+@import "./mediasQuerys.scss";
+
+#root {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+* {
+  button {
+    color: rgb(0, 0, 0);
+  }
+  a {
+    color: black;
+  }
+  &:visited {
+    color: black;
+  }
+  &:link {
+    color: black;
+  }
+  &:active {
+    color: black;
+  }
+}
+
+.mobile-div {
+  display: flex;
+  justify-content: center;
+}
+
+.error-screen {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  font-size: 32px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 16px;
+  p {
+    text-align: center;
+  }
+}
+
+@import "./generalStyles.scss";
+@import "./loader/loader.scss";
+@import "./branding/branding.scss";
+@import "./inicioSesion/inicioSesion.scss";
+@import "./registro/registro.scss";
+@import "./login/login.scss";
+@import "./home/home.scss";
+@import "./navBar/navBar.scss";
+@import "./zonas/zonas.scss";
+@import "./categorias/categorias.scss";
+@import "./mi-perfil/miPerfil.scss";
+@import "./card-comercios/cardComercios.scss";
+@import "./modal/modal.scss";
+@import "./modalRecupero/modalRecupero.scss";
+@import "./comercioDetalle/comercioDetalle.scss";
+@import "./misGuardados/misGuardados.scss";
+@import "./reseña/reseña.scss";

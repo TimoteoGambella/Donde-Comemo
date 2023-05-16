@@ -1,0 +1,115 @@
+.zonas-container {
+  width: 360px;
+  height: 100vh;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+  .circulo-uno {
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    left: -20px;
+    top: 91px;
+    background: #9bc2a7;
+    border-radius: 50%;
+    background: #9bc2a7;
+    z-index: 0;
+  }
+
+  .top-bar {
+    position: relative;
+    width: 100%;
+    height: 64px;
+    background: #599a6c;
+    border: 1px solid #000000;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    h3 {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 28px;
+    }
+    path {
+      color: #000000;
+    }
+  }
+  .saludo-zonas {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+    font-size: 22px;
+    margin-top: 27px;
+    margin-bottom: 49px;
+    p {
+      width: 328px;
+      height: 20px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 20px;
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 1.25px;
+
+      color: #000000;
+    }
+  }
+  .carrousel {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    cursor: grab;
+    margin-top: 20px;
+  }
+  .inner-carrousel {
+    display: flex;
+  }
+  .item {
+    width: 166px;
+    height: 166px;
+    margin-right: 20px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .categorias-zonas {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    button {
+      height: 40px;
+      width: 140px;
+      border-radius: 20px;
+      padding: 10px 22px 10px 22px;
+      background-color: #599a6c;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 0.10000000149011612px;
+      text-align: center;
+      border: 1px solid black;
+      margin-bottom: 14px;
+    }
+  }
+}

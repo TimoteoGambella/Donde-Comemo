@@ -1,0 +1,97 @@
+.misGuardados-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+    height: 100%;
+    
+    .contenedorDeCards{
+        height: 100%;
+        overflow-y: scroll;
+        margin-bottom: 180px;
+    }
+}
+.saludo-zonas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cardsComercios {
+    margin: 0 auto;
+    height: 543px;
+    width: 320px;
+    left: 0px;
+    top: 0px;
+    border-radius: 12px;
+    padding: 5px 0px 5px 0px;
+    background-color: #599a6c;
+    margin-top: 20px;
+
+    .top-card {
+      display: flex;
+      height: 77px;
+      padding: 14.5px 16px;
+      .top-izquierdo {
+        width: 80%;
+        h3 {
+          font-family: "Roboto";
+          font-size: 16px;
+          letter-spacing: 0.1px;
+          margin-bottom: 4px;
+        }
+        h6 {
+          font-family: "Roboto";
+          font-size: 14px;
+          letter-spacing: 0.25px;
+        }
+      }
+      .top-derecho {
+        width: 20%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 10px;
+      }
+    }
+  }
+  .direccion {
+    padding: 14.5px 16px;
+    height: 69px;
+    h5 {
+      font-family: "Roboto";
+      font-size: 16px;
+      letter-spacing: 0.15px;
+      margin-bottom: 4px;
+    }
+    h6 {
+      font-family: "Roboto";
+      font-size: 14px;
+      letter-spacing: 0.15px;
+    }
+  }
+  .cardComercio-descripcion {
+    font-family: "Roboto";
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    padding-left: 14.5px;
+  }
+  .cardComercio-button {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 16px;
+    button {
+      height: 40px;
+      width: 104px;
+      left: 200px;
+      top: 16px;
+      border-radius: 20px;
+      padding: 10px 22px 10px 22px;
+      background-color: #599a6c;
+      margin-top: 21px;
+    }
+  }

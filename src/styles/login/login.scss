@@ -1,0 +1,46 @@
+.login-container {
+  width: 360px;
+  height: 100vh;
+  background-image: url("../../assets/fondo.png");
+
+  img {
+    margin-bottom: 36px;
+  }
+  p {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .volverAtras {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.5px;
+    text-decoration-line: underline;
+
+    color: #000000;
+  }
+  .botonLogin {
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+}
